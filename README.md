@@ -16,8 +16,7 @@ Remember to put the folder in your GOPATH/src path. The project can be opened by
 
 A better way is to compile the client and server code separately, and then get the executable file. You can open the cmd window and run it. At this time, you can start multiple clients.
 
-# Enter GOPATH/src and execute separately
-
+Enter GOPATH/src and execute separately
 go build -o server.exe .\tcpchat\server\main\
 go build -o client.exe .\tcpchat\client\main\
 
